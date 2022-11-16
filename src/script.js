@@ -5,7 +5,7 @@ var terminal_outputs = document.getElementById("terminal_outputs");
 function execute(input){
     let output;
     input = input.toLowerCase();
-    output = `<div>→ testing the input is ${input}</div>`;
+    output = `<div>→ ${input}</div>`;
     if(!COMMANDS.hasOwnProperty(input)){
         output += `<div>No such command: ${input} </div>`;
     }
