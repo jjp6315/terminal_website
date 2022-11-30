@@ -12,19 +12,20 @@
                 <div class="close"></div>
                 <div class="min"></div>
                 <div class="max"></div>
-                <span class="terminal-bar-text">JiWoong's Terminal</span>
+                <span class="terminal-bar-text">Brian's terminal</span>
             </div>
-            <div class="terminal-content" id="termina_content">
-                <div id="terminal_outputs">
+
+            <div class="terminal-content" id="terminal_content">
+                <div class="column output" id="terminal_outputs">
                     <span>Welcome to the terminal</span>
-                    <!-- <span>Type "help" to see supporting commands</span> -->
+                    <span>Type <span class="command-keyword">"help"</span> to see supporting commands</span>
                 </div>
                 <div class="row">
                     <span>→</span>
                     <input 
-                        onblur="this.focus()" 
-                        autofocus 
-                        class="user_input" 
+                        onblur="this.focus()"
+                        autofocus
+                        class="user_input"
                         id="user_input" 
                         type="text">
                 </div>
